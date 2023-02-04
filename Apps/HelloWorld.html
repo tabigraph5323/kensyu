@@ -29,7 +29,11 @@
     <div id="cesiumContainer"></div>
     <script>
       const viewer = new Cesium.Viewer("cesiumContainer");
-      viewer.dataSources.add(Cesium.KmlDataSource.load("./mydata/2022YE.kml"));
+      viewer.dataSources.add(Cesium.KmlDataSource.load("./mydata/Tokyo-Chiba-1.kml"));
+      viewer.dataSources.add(Cesium.KmlDataSource.load("./mydata/Tokyo-Chiba-2.kml"));
+      viewer.dataSources.add(Cesium.KmlDataSource.load("./mydata/Chiba-Yokohama-1.kml"));
+      viewer.dataSources.add(Cesium.KmlDataSource.load("./mydata/Chiba-Yokohama-2.kml"));
+      viewer.dataSources.add(Cesium.KmlDataSource.load("./mydata/Chiba-Yokohama-3.kml"));
     </script>
   </body>
 </html>
